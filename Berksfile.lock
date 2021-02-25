@@ -34,6 +34,7 @@ DEPENDENCIES
     git: https://github.com/Gryphon-And-Rook-Inc/wkhtmltopdf-update.git
     revision: 34dab37ae219498e8a89936a7ff9ee3a7770df13
   yum-epel
+  zypper
 
 GRAPH
   apt (6.1.4)
