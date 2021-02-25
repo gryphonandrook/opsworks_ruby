@@ -9,7 +9,7 @@ metadata
 group :integration do
   cookbook 'opsworks_ruby'
   cookbook 'apt'
-  cookbook 'nginx'
+  cookbook 'nginx', git: 'https://github.com/positronicninja/chef_nginx_templates.git'
   cookbook 'ohai'
   cookbook 'yum-epel'
   cookbook 'zypper'
