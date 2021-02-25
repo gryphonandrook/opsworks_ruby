@@ -9,6 +9,7 @@ metadata
 group :integration do
   cookbook 'opsworks_ruby'
   cookbook 'apt'
+  cookbook 'nginx'
   cookbook 's3fs', '~> 3.0.4', git: 'https://github.com/twilson63/s3fs-recipe.git'
   cookbook 'opsworks-rails-precompile', git: 'https://github.com/positronicninja/opsworks-rails-precompile.git'
   cookbook 'opsworks-cookbook-custom-env', git: 'https://github.com/diegodurante/opsworks-cookbook-custom-env.git'
@@ -18,6 +19,5 @@ group :integration do
   cookbook 'gnr_server_tools', git: 'https://github.com/Gryphon-And-Rook-Inc/gnr_server_tools.git'
   cookbook 'wkhtmltopdf-update', git: 'https://github.com/Gryphon-And-Rook-Inc/wkhtmltopdf-update.git'
   cookbook 'gnr_elasticsearch', git: 'https://github.com/positronicninja/gnr_elasticsearch.git'
-  cookbook 'nginx', git: 'https://github.com/positronicninja/chef_nginx_templates.git'
   cookbook 'unicorn', git: 'https://github.com/positronicninja/chef_unicorn_templates.git'
 end

@@ -13,8 +13,6 @@ DEPENDENCIES
     git: https://github.com/positronicninja/gnr_whenever.git
     revision: 92a1ba7e2fa302763ab6d183f2e7977fb4714f2a
   nginx
-    git: https://github.com/positronicninja/chef_nginx_templates.git
-    revision: 6603a3144ce4a01fc2021f8dd88e148177e74e13
   opsworks-cookbook-custom-env
     git: https://github.com/diegodurante/opsworks-cookbook-custom-env.git
     revision: 44a97b6186620c11aa0930bad296908737fbef8e
@@ -52,7 +50,11 @@ GRAPH
   logrotate (2.2.1)
   mingw (2.1.1)
     seven_zip (>= 0.0.0)
-  nginx (0.1.0)
+  nginx (8.1.6)
+    build-essential (>= 5.0)
+    ohai (>= 4.1.0)
+    yum-epel (>= 0.0.0)
+    zypper (>= 0.0.0)
   nodejs (6.0.0)
     ark (>= 2.0.2)
     build-essential (>= 5.0)
@@ -89,3 +91,5 @@ GRAPH
     apt (>= 0.0.0)
   yarn (0.4.3)
     apt (>= 0.0.0)
+  yum-epel (4.1.1)
+  zypper (0.4.0)
