@@ -1,0 +1,33 @@
+{
+  "name": "gnr_elasticsearch",
+  "description": "Configures elasticsearch",
+  "long_description": "ElasticSearch Cookbook\n====================\nConfigures elasticsearch.\n\nRequirements\n------------\n\nUsage\n-----\n#### elasticsearch::nginx_upstream\n\n",
+  "maintainer": "Gryphon & Rook Inc",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

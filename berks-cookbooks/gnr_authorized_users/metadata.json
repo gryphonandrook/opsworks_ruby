@@ -1,0 +1,33 @@
+{
+  "name": "gnr_authorized_users",
+  "description": "Configures authorized users",
+  "long_description": "gnr_authorized_users Cookbook\n====================\nConfigures authorized keys for users.\n\nUsage\n-----\n#### gnr_authorized_users::configure\nSpecify users & key in a databag:\n\n```json\n{\n  \"id\": \"users\",\n  \"bob@acme.com\": {\n    \"key\": \"AAAAB3NzaC1yc2EAAAADAQABAAABAQCctNyRouVDhzjiP[...]\",\n    \"user\": \"root\"\n  },\n  \"alice@acme.com\": {\n    \"key\": \"AAAAB3NzaC1yc2EAAAADAQABAAABAQCySLKbpFRGCrKU/[...]\",\n    \"user\": \"alice\"\n  }\n}\n```\n",
+  "maintainer": "Gryphon & Rook Inc",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "ssh_authorized_keys": "= 0.4.0"
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

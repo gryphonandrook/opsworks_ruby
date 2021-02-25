@@ -1,0 +1,33 @@
+{
+  "name": "opsworks-rails-precompile",
+  "description": "Installs/Configures opsworks-rails-precompile",
+  "long_description": "# Recipes\n\n`opsworks-rails-precompile::default`\n`opsworks-rails-precompile::symlink`\n\n# Author\n\nStefan Wrobel\n\n# License\n\nMIT (fork & let fork)\n",
+  "maintainer": "Stefan Wrobel",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

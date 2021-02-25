@@ -1,0 +1,33 @@
+{
+  "name": "gnr_whenever",
+  "description": "Configures whenever",
+  "long_description": "whenever Cookbook\n====================\nConfigures whenever to update crontab.\n\nRequirements\n------------\nIn order for cron to know how to find ruby, you need to provide it with the path environment variable. You can do so by including the following line in your `schedule.rb` file:\n\n`env :PATH, '/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/aws/bin'`\n\nAlso, by default logging will be sent to syslog. If you want a filesystem logfile like rails generates, add the following line to `schedule.rb`:\n\n`set :output, 'log/cron.log'`\n\nUsage\n-----\n#### gnr_whenever::default\nJust include `whenever` in your node's `run_list`:\n\n```json\n{\n  \"name\":\"my_node\",\n  \"run_list\": [\n    \"recipe[whenever]\"\n  ]\n}\n```\n",
+  "maintainer": "Gryphon & Rook Inc",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

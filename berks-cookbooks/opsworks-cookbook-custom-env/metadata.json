@@ -1,0 +1,33 @@
+{
+  "name": "opsworks-cookbook-custom-env",
+  "description": "This recipe allow you to use environment variables inside your Rails app when you use a AWS OpsWorks stack.",
+  "long_description": "",
+  "maintainer": "Diego Durante",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+    "cookbook-leevia::custom_env": "Generate a config/application.yml file to contain all environment variables"
+  },
+  "version": "0.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

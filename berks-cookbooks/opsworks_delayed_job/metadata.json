@@ -1,0 +1,37 @@
+{
+  "name": "opsworks_delayed_job",
+  "description": "Configure and deploy background job workers.",
+  "long_description": "",
+  "maintainer": "Artsy",
+  "maintainer_email": "it@artsymail.com",
+  "license": "MIT",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+    "opsworks_delayed_job::setup": "Set up delayed_job worker.",
+    "opsworks_delayed_job::configure": "Configure delayed_job worker.",
+    "opsworks_delayed_job::deploy": "Deploy delayed_job worker.",
+    "opsworks_delayed_job::undeploy": "Undeploy delayed_job worker.",
+    "opsworks_delayed_job::stop": "Stop delayed_job worker."
+  },
+  "version": "0.8.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

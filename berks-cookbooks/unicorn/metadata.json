@@ -1,0 +1,33 @@
+{
+  "name": "unicorn",
+  "description": "Configures whenever",
+  "long_description": "unicorn template Cookbook\n====================\n",
+  "maintainer": "Gryphon & Rook Inc",
+  "maintainer_email": "",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
