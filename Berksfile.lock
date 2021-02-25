@@ -13,6 +13,7 @@ DEPENDENCIES
     git: https://github.com/positronicninja/gnr_whenever.git
     revision: 92a1ba7e2fa302763ab6d183f2e7977fb4714f2a
   nginx
+  ohai
   opsworks-cookbook-custom-env
     git: https://github.com/diegodurante/opsworks-cookbook-custom-env.git
     revision: 44a97b6186620c11aa0930bad296908737fbef8e
