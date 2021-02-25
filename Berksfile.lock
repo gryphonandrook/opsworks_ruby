@@ -25,8 +25,6 @@ DEPENDENCIES
     git: https://github.com/joeyAghion/opsworks_delayed_job.git
     revision: a29809083b27a42be2498dc88b2dfa0a93c41575
   opsworks_ruby
-    path: .
-    metadata: true
   s3fs
     git: https://github.com/twilson63/s3fs-recipe.git
     revision: 1a5ebf62acce44b08c646fea47bb5d3c60ee4db4
@@ -39,29 +37,43 @@ DEPENDENCIES
 
 GRAPH
   apt (6.1.4)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
   build-essential (8.2.1)
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
+  chef_client_updater (3.6.0)
   gnr_authorized_users (0.1.0)
     ssh_authorized_keys (= 0.4.0)
   gnr_elasticsearch (0.1.0)
   gnr_server_tools (0.1.1)
   gnr_whenever (0.1.0)
-  logrotate (2.2.0)
-  mingw (2.1.0)
+  logrotate (2.2.1)
+  mingw (2.1.1)
     seven_zip (>= 0.0.0)
   nginx (0.1.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  ohai (5.2.5)
   opsworks-cookbook-custom-env (0.0.0)
   opsworks-rails-precompile (1.0.0)
   opsworks_delayed_job (0.8.0)
-  opsworks_ruby (1.13.0)
+  opsworks_ruby (1.20.2)
     apt (< 7.0)
-    logrotate (>= 0.0.0)
-    nginx (>= 0.0.0)
+    ark (= 4.0.0)
+    chef_client_updater (~> 3.6.0)
+    logrotate (= 2.2.1)
+    nginx (< 9.0)
+    nodejs (< 7.0)
+    ohai (< 5.3)
     ruby-ng (>= 0.0.0)
     s3_file (>= 0.0.0)
     seven_zip (~> 2.0)
-    sudo (>= 0.0.0)
+    sudo (= 5.4.4)
+    windows (< 5.0)
+    yarn (>= 0.0.0)
   ruby-ng (0.3.0)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
@@ -72,6 +84,8 @@ GRAPH
   ssh_authorized_keys (0.4.0)
   sudo (5.4.4)
   unicorn (0.1.0)
-  windows (5.1.5)
+  windows (4.3.4)
   wkhtmltopdf-update (0.5.1)
+    apt (>= 0.0.0)
+  yarn (0.4.3)
     apt (>= 0.0.0)
