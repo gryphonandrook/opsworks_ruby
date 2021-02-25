@@ -1,24 +1,61 @@
 DEPENDENCIES
+  gnr_authorized_users
+    git: https://github.com/Gryphon-And-Rook-Inc/gnr_authorized_users.git
+    revision: 083a1c92c47e88be0ea07f2135193bb14457de78
+  gnr_elasticsearch
+    git: https://github.com/positronicninja/gnr_elasticsearch.git
+    revision: 28ce182080c24dd79d3b4fa3fa2e32c58110998b
+  gnr_server_tools
+    git: https://github.com/Gryphon-And-Rook-Inc/gnr_server_tools.git
+    revision: 6604f94a7d2f9b6fd2745cacee8817ea448f8766
+  gnr_whenever
+    git: https://github.com/positronicninja/gnr_whenever.git
+    revision: 92a1ba7e2fa302763ab6d183f2e7977fb4714f2a
+  nginx
+    git: https://github.com/positronicninja/chef_nginx_templates.git
+    revision: 6603a3144ce4a01fc2021f8dd88e148177e74e13
+  opsworks-cookbook-custom-env
+    git: https://github.com/diegodurante/opsworks-cookbook-custom-env.git
+    revision: 44a97b6186620c11aa0930bad296908737fbef8e
+  opsworks-rails-precompile
+    git: https://github.com/positronicninja/opsworks-rails-precompile.git
+    revision: 5e79c96d034f450d2570cd23146110366b3c53e2
+  opsworks_delayed_job
+    git: https://github.com/joeyAghion/opsworks_delayed_job.git
+    revision: a29809083b27a42be2498dc88b2dfa0a93c41575
   opsworks_ruby
     path: .
     metadata: true
+  s3fs
+    git: https://github.com/twilson63/s3fs-recipe.git
+    revision: 1a5ebf62acce44b08c646fea47bb5d3c60ee4db4
+  unicorn
+    git: https://github.com/positronicninja/chef_unicorn_templates.git
+    revision: 1b73d8968a9f9c81fd2e0732433643bfdf259a34
+  wkhtmltopdf-update
+    git: https://github.com/Gryphon-And-Rook-Inc/wkhtmltopdf-update.git
+    revision: 34dab37ae219498e8a89936a7ff9ee3a7770df13
 
 GRAPH
   apt (6.1.4)
   build-essential (8.2.1)
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
+  gnr_authorized_users (0.1.0)
+    ssh_authorized_keys (= 0.4.0)
+  gnr_elasticsearch (0.1.0)
+  gnr_server_tools (0.1.1)
+  gnr_whenever (0.1.0)
   logrotate (2.2.0)
   mingw (2.1.0)
     seven_zip (>= 0.0.0)
-  nginx (8.1.6)
-    build-essential (>= 5.0)
-    ohai (>= 4.1.0)
-    yum-epel (>= 0.0.0)
-    zypper (>= 0.0.0)
+  nginx (0.1.0)
   ohai (5.2.5)
-  opsworks_ruby (1.12.0)
-    apt (< 7.0.0)
+  opsworks-cookbook-custom-env (0.0.0)
+  opsworks-rails-precompile (1.0.0)
+  opsworks_delayed_job (0.8.0)
+  opsworks_ruby (1.13.0)
+    apt (< 7.0)
     logrotate (>= 0.0.0)
     nginx (>= 0.0.0)
     ruby-ng (>= 0.0.0)
@@ -29,9 +66,14 @@ GRAPH
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
   s3_file (2.8.5)
+  s3fs (3.0.4)
   seven_zip (2.0.2)
     windows (>= 1.2.2)
+  ssh_authorized_keys (0.4.0)
   sudo (5.4.4)
+  unicorn (0.1.0)
   windows (5.1.5)
+  wkhtmltopdf-update (0.5.1)
+    apt (>= 0.0.0)
   yum-epel (3.3.0)
   zypper (0.4.0)
