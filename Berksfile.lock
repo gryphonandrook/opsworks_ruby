@@ -1,4 +1,5 @@
 DEPENDENCIES
+  apt
   gnr_authorized_users
     git: https://github.com/Gryphon-And-Rook-Inc/gnr_authorized_users.git
     revision: 083a1c92c47e88be0ea07f2135193bb14457de78
@@ -50,7 +51,6 @@ GRAPH
   mingw (2.1.0)
     seven_zip (>= 0.0.0)
   nginx (0.1.0)
-  ohai (5.2.5)
   opsworks-cookbook-custom-env (0.0.0)
   opsworks-rails-precompile (1.0.0)
   opsworks_delayed_job (0.8.0)
@@ -75,5 +75,3 @@ GRAPH
   windows (5.1.5)
   wkhtmltopdf-update (0.5.1)
     apt (>= 0.0.0)
-  yum-epel (3.3.0)
-  zypper (0.4.0)
